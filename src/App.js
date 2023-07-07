@@ -71,7 +71,7 @@ function App() {
     <div
       style={{
         position: "relative",
-        paddingTop: "max(60%,324px)",
+        paddingTop: "100vh",
         width: "100%",
         height: "0",
       }}
@@ -92,6 +92,7 @@ function App() {
         frameBorder="0"
         allowtransparency="true"
         allowFullScreen="true"
+        // sandbox="allow-same-origin"
       ></iframe>
     </div>
   );
