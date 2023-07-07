@@ -18,7 +18,7 @@ body {
   overflow-y: hidden;
 }
 
-div::after {
+/* div::after {
   content: "";
   position: fixed;
   width: 100vw;
@@ -31,7 +31,7 @@ div::after {
   div::after {
     height: 31vh;
   }
-}
+} */
 
 .fh5---banner---container {
   display: none;
