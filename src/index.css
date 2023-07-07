@@ -18,13 +18,19 @@ body {
   overflow-y: hidden;
 }
 
-body::after {
+div::after {
   content: "";
-  position: absolute;
-  width: 100%;
-  height: 20%;
-  background-color: #ebeaf0;
+  position: fixed;
+  width: 100vw;
+  height: 20vh;
+  background-color: #F0EFF3;
   bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  div::after {
+    height: 31vh;
+  }
 }
 
 .fh5---banner---container {
